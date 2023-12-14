@@ -7,7 +7,7 @@ image_logo = st.image("imgs/le_logo.png", caption=None, use_column_width=True)
 
 # Description du projet
 st.write(
-    "Bienvenue sur Epydemie, un simulateur en temps réel de la contagion d'un virus "
+    "Epydemie c'est un simulateur en temps réel de la contagion d'un virus "
     "par rapport aux populations. Ce projet vise à fournir une compréhension visuelle "
     "de la propagation des maladies infectieuses et de l'impact de différentes "
     "mesures préventives."
