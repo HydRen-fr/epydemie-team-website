@@ -11,10 +11,8 @@ st.write(
     "mesures préventives."
 )
 
-# Ajouter des images
-image_path = "imgs/epy_capture.jpg"
-image = st.image(image_path, caption="Epydemie", use_column_width=True)
-
+image_logo = st.image("imgs/le_logo.png", caption="Logo", use_column_width=True)
+image_demo = st.image("imgs/epy_capture.jpg", caption="Epydemie", use_column_width=True)
 
 
 # Boutons interactifs
@@ -22,7 +20,7 @@ if st.button("En savoir plus sur Epydemie"):
     st.write("Epydemie est un projet innovant qui utilise des modèles de simulation pour "
              "prédire la propagation d'une maladie dans différentes populations. La plateforme "
              "permet aux utilisateurs de tester différents scénarios en ajustant des paramètres "
-             "tels que le taux de transmission, la durée d'incubation, etc.")
+             "tels que le taux d'infectiosité, le taux d'asymptomatiques, etc.")
     
    # Image à gauche
     col1, col2 = st.columns(2)
