@@ -3,6 +3,8 @@ import streamlit as st
 # Titre de l'application
 st.title("Epydemie - Simulateur d'épidémie en temps réel")
 
+image_logo = st.image("imgs/le_logo.png", caption=None, use_column_width=True)
+
 # Description du projet
 st.write(
     "Bienvenue sur Epydemie, un simulateur en temps réel de la contagion d'un virus "
@@ -11,9 +13,7 @@ st.write(
     "mesures préventives."
 )
 
-image_logo = st.image("imgs/le_logo.png", caption="Logo", use_column_width=True)
-image_demo = st.image("imgs/epy_capture.jpg", caption="Epydemie", use_column_width=True)
-
+image_demo = st.image("imgs/epy_capture.jpg", caption=None, use_column_width=True)
 
 # Boutons interactifs
 if st.button("En savoir plus sur Epydemie"):
