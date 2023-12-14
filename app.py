@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Titre de l'application
-st.title("Epydemie - Simulateur d'épidémie en temps réel")
+st.title("Simulateur d'épidémie en temps réel")
 
 image_logo = st.image("imgs/le_logo.png", caption=None, use_column_width=True)
 
