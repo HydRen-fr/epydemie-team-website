@@ -64,6 +64,5 @@ st.markdown("""---""")
 
 # Pied de page
 st.write(
-    """Contactez-nous pour plus d'informations sur Epydemie. 
-    Email : hbringuet@numericable.fr"""
+    """Contactez-nous pour plus d'informations sur Epydemie. | Email : hbringuet@numericable.fr"""
 )
