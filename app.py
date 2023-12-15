@@ -58,7 +58,10 @@ if st.button("En savoir plus sur Epydemie"):
         Son talent inné pour le design graphique ajoute une dimension esthétique à notre travail, créant une expérience utilisateur exceptionnelle. 
         Arthur transforme les concepts en images, et son expertise garantit que notre projet ait une présence visuelle remarquable."""
     )
-    
+
+# Séparation
+st.markdown("""---""") 
+
 # Pied de page
 st.write(
     """Contactez-nous pour plus d'informations sur Epydemie. 
