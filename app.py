@@ -1,25 +1,24 @@
 import streamlit as st
 
-# Titre de l'application
-st.title("Simulateur d'épidémie en temps réel")
-
+# Logo
 image_logo = st.image("imgs/le_logo.png", caption=None, use_column_width=True)
 
 # Description du projet
 st.write(
-    """Epydemie c'est un simulateur en temps réel de la contagion d'un virus 
-    par rapport aux populations. Ce projet vise à fournir une compréhension visuelle 
+    """Epydemie c'est un **simulateur en temps réel de la propagation d'un virus 
+    au sein d'une populaton**. Ce projet vise à fournir une compréhension visuelle 
     de la propagation des maladies infectieuses et de l'impact de différentes 
     mesures préventives."""
 )
 
+# Demo
 image_demo = st.image("imgs/epy_capture.png", caption=None, use_column_width=True)
 
-# Boutons interactifs
+# Bouton interactif pour dévoiler des explications
 if st.button("En savoir plus sur Epydemie"):
     st.write(
-        """Epydemie est un projet innovant qui utilise des modèles de simulation pour 
-        prédire la propagation d'une maladie dans différentes populations. La plateforme 
+        """Epydemie est un projet innovant qui utilise des modèles pour simuler
+        la propagation d'une maladie dans différentes populations. La plateforme 
         permet aux utilisateurs de tester différents scénarios en ajustant des paramètres 
         tels que le taux d'infectiosité, le taux d'asymptomatiques, etc."""
     )
